@@ -1,0 +1,8 @@
+Clone the project
+
+build each module (instrumentation and sample app) using "mvn clean install"
+
+Command To start application with instrumentaion :
+
+java -javaagent:instrumentation/target/instrumentation-1.0-SNAPSHOT.jar  -jar sampleapp/target/sampleapp-1.0-SNAPSHOT.jar
+
